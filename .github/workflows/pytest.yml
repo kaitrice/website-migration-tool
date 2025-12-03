@@ -27,7 +27,7 @@ jobs:
         run: |
           if [ -f pyproject.toml ] || [ -f setup.py ]; then pip install -e .; fi
 
-      - name: Test with pytest
+      - name: Unit test with pytest
         run: |
           coverage run -m pytest -v -s
 
