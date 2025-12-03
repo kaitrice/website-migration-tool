@@ -31,7 +31,7 @@ Install dependencies
 Start the server
 
 ```bash
-  py tool\main.py
+  py -m tool.cli.py
 ```
 
 
@@ -40,7 +40,7 @@ Start the server
 To run tests, run the following command
 
 ```bash
-  py tests\main.test.py
+  pytest
 ```
 
 
