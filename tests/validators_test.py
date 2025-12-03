@@ -8,6 +8,6 @@ def test_is_url():
     """
     Test "is url" function
     """
-    assert is_url('') is not False
-    assert is_url('domain.com') is not False
+    assert is_url('') is False
+    assert is_url('domain.com') is False
     assert is_url('https://domain.com') is True
