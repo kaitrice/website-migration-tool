@@ -1,7 +1,7 @@
 """
 Test format functions
 """
-from tool.utils.format import format_url
+from src.tool.utils.format import format_url
 
 
 def test_format_url():

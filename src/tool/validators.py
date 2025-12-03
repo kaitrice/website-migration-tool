@@ -1,7 +1,7 @@
 """
 Validate input values.
 """
-import request
+from requests import get, exceptions
 import validators
 
 def is_url(url_str: str) -> bool:
@@ -27,10 +27,10 @@ def is_valid_url(url_str: str) -> bool:
         :rtype: bool
     """
     try:
-        response = request.get(url_str, timeout=5)
+        response = get(url_str, timeout=2)
         if response.status_code == 200:
             return True
         return False
-    except request.exceptions.RequestException as e:
+    except exceptions.RequestException as e:
         print(f"Error: {e}")
         return False

@@ -1,6 +1,6 @@
 """Command Line Interface for migration tool."""
 import sys
-from tool.validators import is_url
+from src.tool.validators import is_url
 
 
 print("~    Website Migration Tool    ~\n")

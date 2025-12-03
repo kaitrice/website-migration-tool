@@ -2,7 +2,7 @@
 Utility functions for locating sitemap.
 """
 
-from tool.validators import is_url, is_valid_url
+from src.tool.validators import is_url, is_valid_url
 
 
 def find_sitemap(base_url: str) -> str:

@@ -1,7 +1,7 @@
 """
 Test validator functions
 """
-from tool.validators import is_url, is_valid_url
+from src.tool.validators import is_url, is_valid_url
 
 
 def test_is_url():
@@ -16,6 +16,5 @@ def test_is_valid_url():
     """
     Test "is valid url" function
     """
-    assert is_valid_url('') is False
-    assert is_valid_url('google.com') is False
+    assert is_valid_url('https://invalid.com/') is False
     assert is_valid_url('https://google.com') is True

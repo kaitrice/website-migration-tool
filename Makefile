@@ -1,8 +1,8 @@
 dev:
-	py -m tool.cli
+	py -m src/tool.cli
 
 test:
-	pylint . && pytest
+	pylint src && pytest
 
 deploy: test
 	git add .
