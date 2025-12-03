@@ -6,5 +6,5 @@ test:
 
 deploy: test
 	git add .
-	git commit -m "deploy: automated"
+	git commit -m "deploy: $(MSG)"
 	git push
