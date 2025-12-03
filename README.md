@@ -12,7 +12,9 @@ Help migrate content from any website.
 
 - [Validators](https://github.com/python-validators/validators)
 
-## Run Locally
+## Using the Tool
+
+### Run Locally
 
 Clone the project
 
@@ -39,7 +41,7 @@ Run command line tool
 ```
 
 
-## Running Tests
+### Running Tests
 
 To run tests, run the following command
 
@@ -47,7 +49,7 @@ To run tests, run the following command
   make test
 ```
 
-## Deployment
+### Deployment
 
 To deploy this project run
 
