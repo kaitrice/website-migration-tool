@@ -6,11 +6,54 @@
 [![Pytest Status](https://img.shields.io/github/actions/workflow/status/kaitrice/website-migration-tool/pytest.yml?label=Unit%20Test)](https://github.com/kaitrice/website-migration-tool/actions/workflows/pytest.yml)
 [![License](https://img.shields.io/badge/license-MIT-white.svg)](/LICENSE)
 
-Help migrate content from any site.
+Help migrate content from any website.
 
 ## Dependencies
 
 - [Validators](https://github.com/python-validators/validators)
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/kaitrice/website-migration-tool
+```
+
+Go to the project directory
+
+```bash
+  cd website-migration-tool
+```
+
+Install dependencies
+
+```bash
+  py -m pip install -r requirements.txt
+```
+
+Run command line tool
+
+```bash
+  make dev
+```
+
+
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  make test
+```
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  make deploy MSG=""
+```
 
 ## Roadmap
 
@@ -44,42 +87,6 @@ Help migrate content from any site.
 1. **Multi-Site & Reuse Capabilities**
     - Compare Old vs New Site
     - Process Multiple Websites
-
-## Run Locally
-
-Clone the project
-
-```bash
-  git clone https://github.com/kaitrice/website-migration-tool
-```
-
-Go to the project directory
-
-```bash
-  cd website-migration-tool
-```
-
-Install dependencies
-
-```bash
-  py -m pip install -r requirements.txt
-```
-
-Start the server
-
-```bash
-  py -m tool.cli.py
-```
-
-
-## Running Tests
-
-To run tests, run the following command
-
-```bash
-  pytest
-```
-
 
 ## Used By
 
