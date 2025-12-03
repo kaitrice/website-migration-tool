@@ -1,6 +1,10 @@
 # Website Migration Tool
 
-[![Version](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![GitHub Issues](https://img.shields.io/github/issues/kaitrice/website-migration-tool)](https://github.com/kaitrice/website-migration-tool/issues) 
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kaitrice/website-migration-tool.svg)](https://github.com/kaitrice/website-migration-tool/pulls) 
+![Pytest Status](https://img.shields.io/github/actions/workflow/status/kaitrice/website-migration-tool/pytest.yml?label=Unit%20Test)
+![Pylint Status](https://img.shields.io/github/actions/workflow/status/kaitrice/website-migration-tool/pylint.yml?label=Pylint)
+[![License](https://img.shields.io/badge/license-MIT-white.svg)](/LICENSE)
 
 Help migrate content from any site.
 
